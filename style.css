@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.BigContainer {
+  width: 100%;
+  height: 608px;
+  background-color: blue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: linear-gradient(to right, white, lightgray);
+}
+.innerDiv {
+  width: 40%;
+  height: 500px;
+  background-color: whitesmoke;
+  border-radius: 10px;
+}
+.innerDiv:hover {
+  box-shadow: 1px 2px 3px 4px lightgray;
+}
+.heading {
+  width: 100%;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: darkmagenta;
+  color: white;
+  font-family: cursive;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.billAmount {
+  padding: 10px;
+  font-size: larger;
+}
+.billAmount input {
+  height: 25px;
+  width: 310px;
+  border-radius: 10px;
+  border: none;
+  padding: 10px;
+  font-size: larger;
+}
+.billAmount input:hover {
+  background-color: darkmagenta;
+  color: white;
+}
+.selectCatagory {
+  font-size: larger;
+  padding: 10px;
+}
+#selectOption {
+  height: 50px;
+  width: 350px;
+  border-radius: 10px;
+  padding: 0px 20px;
+  font-size: larger;
+  color: black;
+}
+#selectOption:hover {
+  background-color: darkmagenta;
+  color: white;
+}
+.numberOfPeople {
+  font-size: larger;
+  padding: 10px;
+}
+#NumberOfPeople {
+  height: 30px;
+  width: 300px;
+  border-radius: 10px;
+  padding: 0px 20px;
+  color: black;
+  font-size: large;
+}
+#NumberOfPeople:hover {
+  background-color: darkmagenta;
+  color: white;
+}
+.calculateButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80px;
+}
+#button {
+  width: 200px;
+  height: 50px;
+  background-color: darkmagenta;
+  cursor: pointer;
+  color: white;
+  letter-spacing: 3px;
+  font-size: large;
+  font-weight: normal;
+  border-radius: 5px;
+}
+#button:hover {
+  box-shadow: 2px 2px 1px 1px darkorchid;
+  border: none;
+  border-radius: 5px;
+  color: darkmagenta;
+  background-color: whitesmoke;
+}
+#valueAfterCalculationDiv {
+  width: 100%;
+  height: 50px;
+  margin: 0px auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#valueAfterCalculation {
+  width: 40%;
+  height: 40px;
+  text-align: center;
+  font-family: cursive;
+}

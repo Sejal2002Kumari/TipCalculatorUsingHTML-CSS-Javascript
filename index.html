@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TipCalculator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="BigContainer">
+      <div class="innerDiv">
+        <form action="#">
+        <div class="heading">TIP CALCULATOR</div>
+        <div class="billAmount">
+          <center>
+            <p>
+              <label for="spaceForAbount"
+                >Enter final bill amount in rupees</label
+              >
+            </p>
+          </center>
+          <br />
+          <center>Rs&nbsp;<input type="number" id="spaceForAbount" /></center>
+        </div>
+        <div class="selectCatagory">
+          <center>
+            <p>
+              <label for="selectOption"
+                >Enter final bill amount in rupees</label
+              >
+            </p>
+          </center>
+          <br />
+          <center>
+            <select name="option" id="selectOption">
+              <option value="0.15">15&#37;&#8211;Outstanding</option>
+              <option value="0.1">10&#37;&#8211;Good</option>
+              <option value="0.05">5&#37;&#8211;It was OK</option>
+            </select>
+          </center>
+        </div>
+        <div class="numberOfPeople">
+          <center>
+            <p>
+              <label for="NumberOfPeople"
+                >How many people are sharing the bill?</label
+              >
+            </p>
+          </center>
+          <br />
+          <center>
+            <input
+              type="number"
+              id="NumberOfPeople"
+              placeholder="Number of people"
+            />
+          </center>
+        </div>
+
+        <div class="calculateButton">
+          <button id="button">CALCULATE</button>&nbsp;&nbsp;
+           <button type="reset" id="button">CLEAR</button>
+        </div>
+        <div id="valueAfterCalculationDiv">
+          <div id="valueAfterCalculation"></div>
+        </div>
+       
+      </form></div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
